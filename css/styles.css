@@ -1,0 +1,80 @@
+body , .container{
+  text-align: center;
+}
+
+html{
+  height: 100%;
+}
+body {
+  min-height: 100%;
+  background-color: #16a596;
+  background-image: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat;
+  background-position:
+  bottom 200px right 700px,
+  top 200px left 700px;
+
+}
+
+.card {
+        margin: 0 auto;
+        float: none;
+        margin-bottom: 10px;
+        margin-top: 130px;
+        border-radius: 19px;
+}
+
+.card .card-header{
+  background-image: url(../images/bg-pattern-card.svg);
+  height: 140px ;
+  -webkit-border-radius: 50%;
+   -moz-border-radius: 50%;
+  border-radius: 18px 18px 0 0;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.card-avatar{
+  position: relative;
+  top: -50px;
+  margin-bottom: -50px;
+}
+
+.card-avatar img{
+   border-radius: 80px;
+   border: 5px solid white;
+}
+
+.card-info{
+  margin-top:15px;
+}
+
+.social{
+  margin-top: 10px;
+}
+
+#followers, #likes, #photos{
+  margin-top:-15px;
+}
+
+.age{
+  display: inline;
+  color:gray;
+  font-family: 'Montserrat', sans-serif;
+  margin-left: 5px;
+
+}
+.name{
+  display: inline;
+}
+
+ .features{
+  font-family: 'Montserrat', sans-serif;
+  color:gray;
+  font-size: 0.75em;
+}
+
+.name, .sns{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
